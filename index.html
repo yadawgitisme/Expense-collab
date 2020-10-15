@@ -1,11 +1,39 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
+    <h1>Expense Tracker</h1>
+    <div>
+        <span>What was the transaction?</span>
+        <input id="description" placeholder="Add Description">
+    </div>
+    <div>
+        <span>What was the amount?</span>
+        <input id="price" type="number" placeholder="Enter amount">
+    </div>
     
+    <button id="button1">Add</button>
+    <br/>
+    <table>
+        <tr>
+          <th id="type" class="center">type</th>
+          <th>name</th>
+          <th id="date">date</th>
+          <th style="text-align: right" id="amount">amount</th>
+        </tr>
+        <tr id="if-empty">
+          <td colspan="4"><span>Items will be show here</span></td>
+        </tr>
+      
+      </table>
+    <script src="app.js"></script>
 </body>
+
 </html>
