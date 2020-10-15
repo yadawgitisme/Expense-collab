@@ -5,7 +5,6 @@ $(document).ready(function (){
     //Variable declarations that use or refer to jquery should be INSIDE the ready function to make sure jquery is instanciated. 
     $name = $('input[name="item-name"'); //notice the different declaration…
     $amount = $('input[name="amount"'); 
-    $type = $('select[name="type"');
     $date = $('input[name="date"');
     
     var formatDate = function(d) {
