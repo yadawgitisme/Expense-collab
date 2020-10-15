@@ -7,7 +7,7 @@
 }
 
 h1, h2 {
-  color: #F5F7FA;
+  color: rgb(180, 169, 11);
   text-align: center;
 }
 
@@ -22,7 +22,7 @@ h2 {
 }
 
 body {
-  background: #A0D468;
+  background: rgb(50, 50, 155);
 }
 
 table {
@@ -36,7 +36,7 @@ table th {
   padding: 10px;
 }
 table tr:nth-child(odd) {
-  background-color: #F5F7FA;
+  background-color: #d9dcdf;
 }
 table td {
   padding: 10px 15px;
@@ -52,16 +52,14 @@ table td {
   position: relative;
   top: 0;
   color: #F5F7FA;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   line-height: 24px;
-  width: 200px;
-  background-color: #4FC1E9;
+  width: 100px;
+  background-color: rgb(30, 168, 30);
   border-radius: 3px;
   cursor: pointer;
   margin: auto;
-  box-shadow: 0 3px #4A89DC;
-  transition: 0.1s ease;
 }
 #button:active {
   position: relative;
