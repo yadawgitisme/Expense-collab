@@ -1,37 +1,119 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-h1, h2{
+
+h1, h2 {
   color: lightgrey;
   text-align: center;
 }
-h1{
+
+h1 {
   font-size: 2.5em;
   margin-top: 20px;
 }
-h2{
+
+h2 {
   margin: 20px 0;
   font-weight: 100;
 }
-body{
+
+body {
   background: green;
 }
-table{
+
+table {
   text-align: left;
   width: 640px;
   margin: 30px auto;
   border-radius: 3px;
   background-color: #fff;
 }
-th{
+
+th {
   padding: 10px;
 }
-tr:nth-child(odd){
+
+tr:nth-child(odd) {
   background-color: lightgrey;
 }
-td{
-  padding: 10px 15px ;
+
+td {
+  padding: 10px 15px;
   color: darkgrey;
+}
+
+.amount {
+  color: red;
+  text-align: right;
+}
+
+#button {
+  position: relative;
+  top: 0;
+  color: lightgrey;
+  padding: 20px;
+  text-align: center;
+  line-height: 24px;
+  width: 200px;
+  background-color: blue;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: auto;
+  box-shadow: 0 3px;
+  transition: 0.1s ease;
+}
+
+#form-box {
+  width: 650px;
+  margin: 30px auto;
+  padding-left: 15px;
+}
+
+form {
+  color: #fff;
+  margin: auto;
+}
+
+select, input {
+  margin-bottom: 25px;
+  color: darkgrey;
+  padding: 10px;
+  width: 200px;
+  border-radius: 3px;
+  border: 0;
+}
+
+div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+span {
+  font-size: 1.3em;
+  font-weight: 100;
+  display: inline-block;
+  width: 100px;
+}
+
+#type {
+  width: 50px;
+}
+
+#date {
+  width: 141px;
+}
+
+#amount {
+  width: 100px;
+}
+
+#if-empty {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
 }
