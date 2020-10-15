@@ -7,9 +7,22 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-
-<div id="form-box">
-  <form>  
+<body>
+  <h1>Simple expense manager project</h1>
+  <h2>Add a new item:</h2>
+  
+  <div id="form-box">
+  <form>
+    <div>
+      <span>Type:</span> 
+        <select name="type">
+            <option value="card">Card</option>
+            <option value="cash">Cash</option>
+            <option value="cryptocoin">Cryptocoin</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    
     <div>
       <span>Name:</span> <input type="text" name="item-name" placeholder="What did you spend on?">
     </div>
@@ -37,7 +50,8 @@
     <tr id="if-empty">
       <td colspan="4"><span>Your added items will show up here!</span></td>
     </tr>
-    </table>
+  
+  </table>
 </body>
-
+  
 </html>
