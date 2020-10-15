@@ -6,22 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
+
 <body>
   <h1>Simple expense manager project</h1>
   <h2>Add a new item:</h2>
   
   <div id="form-box">
-  <form>    
+  <form>
     <div>
       <span>Name:</span> <input type="text" name="item-name" placeholder="What did you spend on?">
     </div>
-    
-    <div>
-      <span>Date:</span> <input type="date" name="date">
-    </div>
-    
     <div>
       <span>Amount:</span> <input type="number" name="amount" placeholder="How much?">
     </div>
@@ -33,16 +29,15 @@
   
   <table>
     <tr>
-      <th id="type" class="center">type</th>
       <th>name</th>
-      <th id="date">date</th>
       <th style="text-align: right" id="amount">amount</th>
     </tr>
-    <tr id="if-empty">
-      <td colspan="4"><span>Your added items will show up here!</span></td>
+      
+    </td>
     </tr>
   
   </table>
+    <script src="app.js"></script>
 </body>
-  
+
 </html>
