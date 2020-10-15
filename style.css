@@ -66,13 +66,6 @@ table
   transition: 0.1s ease;
 }
   
-  :active
-    {position: relative;
-    box-shadow: 0 0px #4A89DC;
-    top: 3px;
-    box-shadow: 0 0;
-  }
-    
 #form-box
   {width: 650px;
   margin: 30px auto;
@@ -92,11 +85,6 @@ form
     border-radius: 3px;
     border: 0;
   }
-    
-    :active
-      {border: 1px solid #4FC1E9;
-      transition: 0.2s ease;
-    }
     
   div
    { display: inline-block;
