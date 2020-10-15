@@ -8,32 +8,36 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
-<body>
-    <h1>Expense Tracker</h1>
+<div id="form-box">
+  <form>  
     <div>
-        <span>What was the transaction?</span>
-        <input id="description" placeholder="Add Description">
-    </div>
-    <div>
-        <span>What was the amount?</span>
-        <input id="price" type="number" placeholder="Enter amount">
+      <span>Name:</span> <input type="text" name="item-name" placeholder="What did you spend on?">
     </div>
     
-    <button id="button1">Add</button>
-    <br/>
-    <table>
-        <tr>
-          <th id="type" class="center">type</th>
-          <th>name</th>
-          <th id="date">date</th>
-          <th style="text-align: right" id="amount">amount</th>
-        </tr>
-        <tr id="if-empty">
-          <td colspan="4"><span>Items will be show here</span></td>
-        </tr>
-      
-      </table>
-    <script src="app.js"></script>
+    <div>
+      <span>Date:</span> <input type="date" name="date">
+    </div>
+    
+    <div>
+      <span>Amount:</span> <input type="number" name="amount" placeholder="How much?">
+    </div>
+    
+  </form>
+  </div>
+  
+  <div id="button"><span>Add a new expense</span></div>
+  
+  <table>
+    <tr>
+      <th id="type" class="center">type</th>
+      <th>name</th>
+      <th id="date">date</th>
+      <th style="text-align: right" id="amount">amount</th>
+    </tr>
+    <tr id="if-empty">
+      <td colspan="4"><span>Your added items will show up here!</span></td>
+    </tr>
+    </table>
 </body>
 
 </html>
